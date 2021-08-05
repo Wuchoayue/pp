@@ -1,0 +1,206 @@
+[
+  {
+    "attr": [
+      {
+        "name": "alpha",
+        "type": "float",
+        "value": 0.1
+      }
+    ],
+    "input_desc": [
+      {
+        "format": "NCHW",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float16"
+      }
+    ],
+    "op": "CeluNpu",
+    "output_desc": [
+      {
+        "format": "NCHW",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float16"
+      }
+    ]
+  },
+  {
+    "attr": [
+      {
+        "name": "alpha",
+        "type": "float",
+        "value": 0.1
+      }
+    ],
+    "input_desc": [
+      {
+        "format": "NCHW",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "int32"
+      }
+    ],
+    "op": "CeluNpu",
+    "output_desc": [
+      {
+        "format": "NCHW",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "int32"
+      }
+    ]
+  },
+  {
+    "attr": [
+      {
+        "name": "alpha",
+        "type": "float",
+        "value": 0.1
+      }
+    ],
+    "input_desc": [
+      {
+        "format": "NCHW",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float"
+      }
+    ],
+    "op": "CeluNpu",
+    "output_desc": [
+      {
+        "format": "NCHW",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float"
+      }
+    ]
+  },
+  {
+    "attr": [
+      {
+        "name": "alpha",
+        "type": "float",
+        "value": 0.1
+      }
+    ],
+    "input_desc": [
+      {
+        "format": "NHWC",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float16"
+      }
+    ],
+    "op": "CeluNpu",
+    "output_desc": [
+      {
+        "format": "NHWC",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float16"
+      }
+    ]
+  },
+  {
+    "attr": [
+      {
+        "name": "alpha",
+        "type": "float",
+        "value": 0.1
+      }
+    ],
+    "input_desc": [
+      {
+        "format": "NHWC",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "int32"
+      }
+    ],
+    "op": "CeluNpu",
+    "output_desc": [
+      {
+        "format": "NHWC",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "int32"
+      }
+    ]
+  },
+  {
+    "attr": [
+      {
+        "name": "alpha",
+        "type": "float",
+        "value": 0.1
+      }
+    ],
+    "input_desc": [
+      {
+        "format": "NHWC",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float"
+      }
+    ],
+    "op": "CeluNpu",
+    "output_desc": [
+      {
+        "format": "NHWC",
+        "shape": [
+          1,
+          6,
+          128,
+          128
+        ],
+        "type": "float"
+      }
+    ]
+  }
+]

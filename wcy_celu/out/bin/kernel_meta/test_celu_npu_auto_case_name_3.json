@@ -1,0 +1,13 @@
+{
+    "binFileName":"test_celu_npu_auto_case_name_3",
+    "binFileSuffix":".o",
+    "blockDim":2,
+    "kernelName":"test_celu_npu_auto_case_name_3__kernel0",
+    "magic":"RT_DEV_BINARY_MAGIC_ELF",
+    "opParaSize":0,
+    "parameters":[
+        0,
+        0
+    ],
+    "sha256":"93e514afa468f8e5450c086f1750a484b8dd1fb47c9ed367ac0028eda7efbe74"
+}
